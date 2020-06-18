@@ -6,6 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Hermit:pixelsize=16:antialias=true:autohint=true";
+static char *font2 = "Liberation Mono:pixelsize=16:antialias=true:autohine=true";
 static int borderpx = 8;
 
 /*
@@ -130,7 +131,7 @@ static const char *colorname[] = {
 	"#add8e6", /* 256 -> cursor */
 	"#555555", /* 257 -> rev cursor*/
 	"#080808", /*"#282828", 258 -> bg */
-	"#ebdbb2", /* 259 -> fg */
+	"#c8c4c4", /* 259 -> fg */
 };
 
 /*
